@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <artifactId>springcloud-server01</artifactId>
     <name>springcloud-server01</name>
     <description>Demo project for Spring Boot</description>
@@ -25,6 +25,7 @@
     </dependencies>
 
     <build>
+        <finalName>ROOT</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
